@@ -1,0 +1,10 @@
+@use '../variables';
+
+.app-header {
+    width: 100%;
+    height: 6.6rem;
+    background: linear-gradient(to right, variables.$color-light-violet, variables.$color-light-magenta);
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    padding-top: 3rem;
+}
