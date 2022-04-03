@@ -15,56 +15,89 @@
     <body class="page">
 
         <main class="page__container">
+
             <!-- Header -->
             <header class="header">
-
+                <h1 class="header__title">Simple booking</h1>
+                <p class="header__subtitle">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
             </header>
+
             <!-- Phone -->
             <div class="phone">
                 <div class="phone__gap"></div>
                 <div class="phone__screen">
-                    <!-- App header -->
-                    <div class="app-header">
-                        <div class="app-header__content">
-                            <button class="app-header__button">
-                                <svg class="app-header__icon" width="4" height="10" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 4 10">
+
+                    <!-- App -->
+                    <div class="app">
+
+                        <!-- App bar -->
+                        <div class="app__bar">
+                            <!-- App Button -->
+                            <button class="app-button">
+                                <svg class="app-button__icon" width="4" height="10" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 4 10">
                                     <path d="M 3 1 L 1,5 L 3,9" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none" />
                                 </svg>
                             </button>
-                            <img class="app-header__avatar" src="/src/assets/images/avatar.jpg" alt="Profile picture">
-                            <div class="app-header__info">
-                                <h2 class="app-header__name">Samuel Green</h2>
-                                <p class="app-header__state">Available to walk</p>
+                            <!-- App avatar -->
+                            <img class="app-avatar" src="/src/assets/images/avatar.jpg" alt="Profile picture">
+                            <!-- App info -->
+                            <div class="app-info">
+                                <h2 class="app-info__name">Samuel Green</h2>
+                                <p class="app-info__state">Available to walk</p>
                             </div>
-                            <button class="app-header__button app-header__button--more">
-                                <svg class="app-header__icon" width="2" height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2 8">
+                            <!-- App button -->
+                            <button class="app-button app-button--more">
+                                <svg class="app-button__icon" width="2" height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2 8">
                                     <path d="M 0 0 H 2 V 2 H 0 Z" fill="#fff" />
                                     <path d="M 0 3 H 2 V 5 H 0 Z" fill="#fff" />
                                     <path d="M 0 6 H 2 V 8 H 0 Z" fill="#fff" />
                                 </svg>
                             </button>
                         </div>
-                    </div>
-                    <!-- App chat -->
-                    <div class="app-chat">
-                        <div class="app-chat__bubble app-chat__bubble--from">
-                            <p class="app-chat__bubble-text app-chat__bubble-text--from">That sounds great i’d be happy to discuss more.</p>
+
+                        <!-- App chat -->
+                        <div class="app__chat">
+                            <!-- App bubble / from -->
+                            <div class="app-bubble app-bubble--from">
+                                <p class="app-bubble__text app-bubble__text--from">That sounds great i’d be happy to discuss more.</p>
+                            </div>
+                            <!-- App bubble / from -->
+                            <div class="app-bubble app-bubble--from">
+                                <p class="app-bubble__text app-bubble__text--from">Could you send me over some pictures of your dog, please?</p>
+                            </div>
+                            <!-- App images -->
+                            <div class="app-images">
+                                <img class="app-images__image" src="/src/assets/images/dog-image-1.jpg" alt="dog picture 1">
+                                <img class="app-images__image" src="/src/assets/images/dog-image-2.jpg" alt="dog picture 2">
+                                <img class="app-images__image" src="/src/assets/images/dog-image-3.jpg" alt="dog picture 3">
+                            </div>
+                            <!-- App bubble / to -->
+                            <div class="app-bubble app-bubble--to">
+                                <p class="app-bubble__text app-bubble__text--to">Here are a few pictures. She's a happy girl</p>
+                            </div>
+                            <!-- App bubble / to -->
+                            <div class="app-bubble app-bubble--to">
+                                <p class="app-bubble__text app-bubble__text--to">Can you make it?</p>
+                            </div>
+                            <!-- App bubble / from -->
+                            <div class="app-bubble app-bubble--from">
+                                <p class="app-bubble__text app-bubble__text--from">She looks so happy! The time we discussed works. How long shall i take her our for?</p>
+                            </div>
+                            <!-- App form -->
+                            <div class="app-form">
+                                <input class="app-form__input" type="text" name="" id="">
+                                <button class="app-form__button">
+                                    <svg class="app-form__icon" width="4" height="10" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 4 10">
+                                        <path d="M 3 1 L 1,5 L 3,9" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none"/>
+                                    </svg>
+                                </button>
+                            </div>
                         </div>
-                        <div class="app-chat__bubble app-chat__bubble--from">
-                            <p class="app-chat__bubble-text app-chat__bubble-text--from">Could you send me over some pictures of your dog, please?</p>
-                        </div>
-                        <div class="app-chat__bubble app-chat__bubble--to">
-                            <p class="app-chat__bubble-text app-chat__bubble-text--to">Here are a few pictures. She's a happy girl</p>
-                        </div>
-                        <div class="app-chat__bubble app-chat__bubble--to">
-                            <p class="app-chat__bubble-text app-chat__bubble-text--to">Can you make it?</p>
-                        </div>
-                        <div class="app-chat__bubble app-chat__bubble--from">
-                            <p class="app-chat__bubble-text app-chat__bubble-text--from">She looks so happy! The time we discussed works. How long shall i take her our for?</p>
-                        </div>
+
                     </div>
                 </div>
             </div>
+
         </main>
 
         <aside class="page__shapes">
