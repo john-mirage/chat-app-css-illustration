@@ -28,7 +28,6 @@
         @media screen and (min-width: variables.$screen-lg) {
             display: flex;
             flex-direction: row;
-            justify-content: flex-start;
             align-items: center;
             max-width: variables.$screen-lg;
             padding-left: 3.2rem;
