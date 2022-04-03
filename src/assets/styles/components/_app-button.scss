@@ -1,0 +1,10 @@
+.app-button {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+
+    &--more {
+        margin-left: auto;
+    }
+}
