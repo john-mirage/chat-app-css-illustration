@@ -21,6 +21,8 @@
     @media screen and (min-width: variables.$screen-lg) {
         flex: 1 1 0%;
         text-align: left;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     &__title {
