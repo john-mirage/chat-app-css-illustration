@@ -19,13 +19,15 @@
         padding-right: 3.6rem;
         border-radius: 9999px;
         font-size: 0.9rem;
-        font-weight: 400;
+        font-weight: 500;
+        color: variables.$color-very-dark-desaturated-violet;
 
         &:focus {
             outline: 0.2rem solid variables.$color-very-light-magenta;
         }
 
         &::placeholder {
+            font-weight: 400;
             color: variables.$color-dark-grayish-violet;
         }
     }
