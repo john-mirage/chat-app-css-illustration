@@ -69,29 +69,37 @@
 
     &__option {
         position: relative;
-        display: flex;
         width: 1.2rem;
         height: 1.2rem;
-        overflow: hidden;
-        border-radius: 9999px;
-        border: 0.1rem solid variables.$color-light-grayish-violet;
         margin-right: 0.8rem;
     }
 
-    &__input {
+    &__option-input {
         position: absolute;
-        z-index: 60;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        cursor: pointer;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
     }
 
-    &__dot {
-        position: relative;
-        z-index: 50;
+    &__option-label {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-radius: 9999px;
+        border: 0.1rem solid variables.$color-light-grayish-violet;
+        cursor: pointer;
+
+        .app-bubble__option-input:focus ~ & {
+            outline: 0.2rem solid variables.$color-white;
+        }
+    }
+
+    &__option-dot {
         width: 0.6rem;
         height: 0.6rem;
         margin: auto;
@@ -100,7 +108,7 @@
         background-color: variables.$color-white;
         transition: transform 150ms;
 
-        .app-bubble__input:checked ~ & {
+        .app-bubble__option-input:checked ~ .app-bubble__option-label & {
             transform: scale(1);
         }
     }

@@ -12,5 +12,11 @@
         width: 4rem;
         height: 4rem;
         border-radius: 0.8rem;
+        transition: opacity 150ms;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.6;
+        }
     }
 }
