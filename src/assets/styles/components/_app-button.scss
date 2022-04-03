@@ -26,6 +26,8 @@
     }
 
     &__icon {
+        position: relative;
+        z-index: 90;
         margin: auto;
     }
 }
