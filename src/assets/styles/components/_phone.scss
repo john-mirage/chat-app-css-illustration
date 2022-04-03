@@ -12,7 +12,7 @@
     background-color: variables.$color-white;
     border-radius: 2.8rem;
     padding: 1rem;
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.15);
 
     @media screen and (min-width: variables.$screen-lg) {
         flex-grow: 0;
