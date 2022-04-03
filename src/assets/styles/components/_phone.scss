@@ -1,13 +1,14 @@
 @use '../variables';
 
 .phone {
-    order: 2;
+    order: 1;
     position: relative;
     z-index: 50;
     width: 24.8rem;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 6.4rem;
     background-color: variables.$color-white;
     border-radius: 2.8rem;
     padding: 1rem;
