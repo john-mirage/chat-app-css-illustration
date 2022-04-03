@@ -49,6 +49,7 @@
         }
 
         &:focus {
+            background-color: variables.$color-very-dark-desaturated-violet;
             outline: 0.2rem solid variables.$color-very-light-magenta;
         }
     }

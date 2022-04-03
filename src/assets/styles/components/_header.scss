@@ -5,11 +5,23 @@
     z-index: 50;
     order: 2;
     width: 100%;
-    max-width: 31.2rem;
+    max-width: 44.8rem;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
     height: auto;
     text-align: center;
+
+    @media screen and (min-width: variables.$screen-sm) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    @media screen and (min-width: variables.$screen-lg) {
+        flex: 1 1 0%;
+        text-align: left;
+    }
 
     &__title {
         font-size: 4rem;

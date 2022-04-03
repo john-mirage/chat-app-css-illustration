@@ -7,6 +7,13 @@
     padding-top: 6.4rem;
     padding-bottom: 6.4rem;
 
+    @media screen and (min-width: variables.$screen-lg) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
     &__container {
         display: flex;
         flex-direction: column;
@@ -14,6 +21,16 @@
         height: auto;
         padding-left: 1.6rem;
         padding-right: 1.6rem;
+
+        @media screen and (min-width: variables.$screen-lg) {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            max-width: variables.$screen-lg;
+            padding-left: 3.2rem;
+            padding-right: 3.2rem;
+        }
     }
     
     &__shapes {
@@ -31,12 +48,20 @@
         width: 50.8rem;
         height: 50.8rem;
 
+        @media screen and (min-width: variables.$screen-lg) {
+            height: 70rem;
+        }
+
         &--left {
             top: 0;
             right: 50%;
             border-bottom-left-radius: 9999px;
             border-bottom-right-radius: 9999px;
             background: linear-gradient(to bottom, variables.$color-light-magenta, variables.$color-light-violet);
+
+            @media screen and (min-width: variables.$screen-lg) {
+                transform: translateX(-29.9rem);
+            }
         }
 
         &--right {
@@ -44,7 +69,11 @@
             left: 50%;
             border-top-left-radius: 9999px;
             border-top-right-radius: 9999px;
-            background-color: variables.$color-light-grayish-violet;
+            background-color: variables.$color-right-shape;
+
+            @media screen and (min-width: variables.$screen-lg) {
+                transform: translateX(39.6rem);
+            }
         }
     }
 }
