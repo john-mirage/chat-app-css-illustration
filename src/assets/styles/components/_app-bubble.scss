@@ -32,6 +32,10 @@
         background: linear-gradient(to left, variables.$color-light-magenta, variables.$color-light-violet);
     }
 
+    &--last {
+        margin-bottom: 1.6rem;
+    }
+
     &__text {
         font-size: 0.8rem;
         font-weight: 500;
