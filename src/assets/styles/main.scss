@@ -3,5 +3,10 @@
 @use './components/page';
 @use './components/header';
 @use './components/phone';
-@use './components/app-header';
-@use './components/app-chat';
+@use './components/app';
+@use './components/app-avatar';
+@use './components/app-info';
+@use './components/app-button';
+@use './components/app-form';
+@use './components/app-bubble';
+@use './components/app-images';
