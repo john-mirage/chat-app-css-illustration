@@ -50,10 +50,6 @@
         width: 50.8rem;
         height: 50.8rem;
 
-        @media screen and (min-width: variables.$screen-lg) {
-            height: 70rem;
-        }
-
         &--left {
             top: 0;
             right: 50%;
@@ -63,6 +59,7 @@
 
             @media screen and (min-width: variables.$screen-lg) {
                 transform: translateX(-29.9rem);
+                height: 70rem;
             }
         }
 
@@ -75,6 +72,7 @@
 
             @media screen and (min-width: variables.$screen-lg) {
                 transform: translateX(39.6rem);
+                height: 68rem;
             }
         }
     }
