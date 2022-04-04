@@ -91,11 +91,12 @@
         width: 100%;
         height: 100%;
         border-radius: 9999px;
-        border: 0.1rem solid variables.$color-light-grayish-violet;
+        border: 0.1rem solid variables.$color-pale-violet;
         cursor: pointer;
 
         .app-bubble__option-input:focus ~ & {
-            outline: 0.2rem solid variables.$color-white;
+            outline: none;
+            border: 0.1rem solid variables.$color-white;
         }
     }
 
@@ -117,7 +118,8 @@
     &__duration {
         font-size: 0.8rem;
         font-weight: 400;
-        color: variables.$color-light-grayish-violet;
+        color: variables.$color-white;
+        opacity: 0.75;
     }
 
     &__price {
