@@ -37,9 +37,9 @@
         top: 50%;
         right: 0.5rem;
         transform: translateY(-50%);
-        display: flex;
         width: 2.4rem;
         height: 2.4rem;
+        padding: 0.2rem;
         margin-left: 0.5rem;
         border-radius: 9999px;
         background-color: variables.$color-very-dark-desaturated-violet;
@@ -57,6 +57,7 @@
     }
 
     &__icon {
-        margin: auto;
+        width: 2rem;
+        height: 2rem;
     }
 }
