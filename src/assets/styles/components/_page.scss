@@ -55,7 +55,7 @@
             right: 50%;
             border-bottom-left-radius: 9999px;
             border-bottom-right-radius: 9999px;
-            background: linear-gradient(to bottom, variables.$color-light-magenta, variables.$color-light-violet);
+            background: linear-gradient(to bottom left, variables.$color-light-magenta, variables.$color-light-violet);
 
             @media screen and (min-width: variables.$screen-lg) {
                 transform: translateX(-29.9rem);
