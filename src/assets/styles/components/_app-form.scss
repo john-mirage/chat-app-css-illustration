@@ -9,6 +9,9 @@
     overflow: hidden;
 
     &__input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
         position: absolute;
         top: 0;
         left: 0;
